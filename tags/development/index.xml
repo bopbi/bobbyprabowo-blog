@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on My Side Spine is Tingling</title>
+    <title>Development on Bobby World</title>
     <link>http://www.bobbyprabowo.com/tags/development/</link>
-    <description>Recent content in Development on My Side Spine is Tingling</description>
+    <description>Recent content in Development on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2015 17:57:37 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2015 22:18:31 +0700</lastBuildDate>
     <atom:link href="http://www.bobbyprabowo.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>iOS set root view controller wont call viewDidDissapear</title>
+      <link>http://www.bobbyprabowo.com/ios-set-root/</link>
+      <pubDate>Fri, 13 Nov 2015 22:18:31 +0700</pubDate>
+      
+      <guid>http://www.bobbyprabowo.com/ios-set-root/</guid>
+      <description>&lt;p&gt;I noted some behaviour when performing set a root view controller on iOS.&lt;/p&gt;
+
+&lt;p&gt;Strangely it wont call the viewDidDissapear method on the viewController that are set the root view controller.&lt;/p&gt;
+
+&lt;p&gt;Always please remember to manually unregister all notification of the viewController before performing a set root view controller, or you gonna have to handle multiple notification&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello World</title>

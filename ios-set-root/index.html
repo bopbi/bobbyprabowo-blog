@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> Hello World &middot; Bobby World </title>
+  <title> iOS set root view controller wont call viewDidDissapear &middot; Bobby World </title>
 
   
   <link rel="stylesheet" href="http://www.bobbyprabowo.com//css/poole.css">
@@ -50,9 +50,13 @@
 
     <div class="content container">
 <div class="post">
-  <h1>Hello World</h1>
-  <span class="post-date">Sun, Apr 19, 2015</span>
-      <p>It always begin with a Hello World</p>
+  <h1>iOS set root view controller wont call viewDidDissapear</h1>
+  <span class="post-date">Fri, Nov 13, 2015</span>
+      <p>I noted some behaviour when performing set a root view controller on iOS.</p>
+
+<p>Strangely it wont call the viewDidDissapear method on the viewController that are set the root view controller.</p>
+
+<p>Always please remember to manually unregister all notification of the viewController before performing a set root view controller, or you gonna have to handle multiple notification</p>
 
 </div>
 </div>
