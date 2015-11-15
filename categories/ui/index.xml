@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Bobby World</title>
-    <link>http://localhost:1313/tags/development/</link>
-    <description>Recent content in Development on Bobby World</description>
+    <title>Ui on Bobby World</title>
+    <link>http://localhost:1313/categories/ui/</link>
+    <description>Recent content in Ui on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Nov 2015 21:54:01 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/ui/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Recycler Parallax</title>
@@ -27,30 +27,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;please take a look at the source on &lt;a href=&#34;https://github.com/bopbi/RecyclerParallax/&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>iOS set root view controller wont call viewDidDissapear</title>
-      <link>http://localhost:1313/ios-set-root/</link>
-      <pubDate>Fri, 13 Nov 2015 22:18:31 +0700</pubDate>
-      
-      <guid>http://localhost:1313/ios-set-root/</guid>
-      <description>&lt;p&gt;I noted some behaviour when performing set a root view controller on iOS.&lt;/p&gt;
-
-&lt;p&gt;Strangely it wont call the viewDidDissapear method on the viewController that are set the root view controller.&lt;/p&gt;
-
-&lt;p&gt;Always please remember to manually unregister all notification of the viewController before performing a set root view controller, or you gonna have to handle multiple notification&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/hello-world/</link>
-      <pubDate>Sun, 19 Apr 2015 17:57:37 +0700</pubDate>
-      
-      <guid>http://localhost:1313/hello-world/</guid>
-      <description>&lt;p&gt;It always begin with a Hello World&lt;/p&gt;
 </description>
     </item>
     

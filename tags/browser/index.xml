@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Browser on Bobby World</title>
-    <link>http://www.bobbyprabowo.com/tags/browser/</link>
+    <link>http://localhost:1313/tags/browser/</link>
     <description>Recent content in Browser on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 May 2015 20:30:19 +0700</lastBuildDate>
-    <atom:link href="http://www.bobbyprabowo.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rise of browser based app</title>
-      <link>http://www.bobbyprabowo.com/rise-of-browser-based-app/</link>
+      <link>http://localhost:1313/rise-of-browser-based-app/</link>
       <pubDate>Fri, 01 May 2015 20:30:19 +0700</pubDate>
       
-      <guid>http://www.bobbyprabowo.com/rise-of-browser-based-app/</guid>
+      <guid>http://localhost:1313/rise-of-browser-based-app/</guid>
       <description>&lt;p&gt;The release of &lt;a href=&#34;https://www.atom.io&#34;&gt;atom&lt;/a&gt; Editor and followed with the release of facebook&amp;rsquo;s &lt;a href=&#34;https://www.nuclide.io&#34;&gt;Nuclide&lt;/a&gt; and also the new &lt;a href=&#34;https://code.visualstudio.com&#34;&gt;Visual Studio Code&lt;/a&gt; made me think that Browser based app is a very powerful platform, who knows maybe next time a true native office suite app, or a multimedia app could build based on that, since Nuclide and Visual Studio Code is an &lt;a href=&#34;https://en.wikipedia.org/wiki/Integrated_development_environment&#34;&gt;IDE&lt;/a&gt; that have tons of functionality.&lt;/p&gt;
 
 &lt;p&gt;The framework that is used to build those Apps is &lt;a href=&#34;http://electron.atom.io/&#34;&gt;Electron&lt;/a&gt; and it is created by &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;, based on the &lt;a href=&#34;https://github.com/atom/electron&#34;&gt;Github page&lt;/a&gt; for Electron: The Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on io.js and Chromium.&lt;/p&gt;

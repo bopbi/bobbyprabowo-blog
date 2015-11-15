@@ -2,19 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Bobby World</title>
-    <link>http://www.bobbyprabowo.com/categories/development/</link>
+    <link>http://localhost:1313/categories/development/</link>
     <description>Recent content in Development on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2015 22:18:31 +0700</lastBuildDate>
-    <atom:link href="http://www.bobbyprabowo.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Nov 2015 21:54:01 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Recycler Parallax</title>
+      <link>http://localhost:1313/recycler-parallax/</link>
+      <pubDate>Sun, 15 Nov 2015 21:54:01 +0700</pubDate>
+      
+      <guid>http://localhost:1313/recycler-parallax/</guid>
+      <description>&lt;p&gt;Recycler Parallax is an android library / code example that show parallax effect on a recycler view for each item when it is scrolled, this library is inspired by soundcloud android app.&lt;/p&gt;
+
+&lt;p&gt;Steps that i use to achieve the parallax event:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set the image matrix to center vertically, using RecyclerView Adapter onBindViewHolder method.&lt;/li&gt;
+&lt;li&gt;Reset the image matrix on RecyclerView Adapter on method onViewRecycled.&lt;/li&gt;
+&lt;li&gt;Handle the scroll movement by using the RecyclerView onScrollListener.&lt;/li&gt;
+&lt;li&gt;During scroll, manipulate the image matrix of the visible image on the RecyclerView.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;please take a look at the source on &lt;a href=&#34;https://github.com/bopbi/RecyclerParallax/&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>iOS set root view controller wont call viewDidDissapear</title>
-      <link>http://www.bobbyprabowo.com/ios-set-root/</link>
+      <link>http://localhost:1313/ios-set-root/</link>
       <pubDate>Fri, 13 Nov 2015 22:18:31 +0700</pubDate>
       
-      <guid>http://www.bobbyprabowo.com/ios-set-root/</guid>
+      <guid>http://localhost:1313/ios-set-root/</guid>
       <description>&lt;p&gt;I noted some behaviour when performing set a root view controller on iOS.&lt;/p&gt;
 
 &lt;p&gt;Strangely it wont call the viewDidDissapear method on the viewController that are set the root view controller.&lt;/p&gt;
@@ -25,10 +46,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://www.bobbyprabowo.com/hello-world/</link>
+      <link>http://localhost:1313/hello-world/</link>
       <pubDate>Sun, 19 Apr 2015 17:57:37 +0700</pubDate>
       
-      <guid>http://www.bobbyprabowo.com/hello-world/</guid>
+      <guid>http://localhost:1313/hello-world/</guid>
       <description>&lt;p&gt;It always begin with a Hello World&lt;/p&gt;
 </description>
     </item>

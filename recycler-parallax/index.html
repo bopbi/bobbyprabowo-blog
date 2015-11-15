@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> Ios &middot; Bobby World </title>
+  <title> Recycler Parallax &middot; Bobby World </title>
 
   
   <link rel="stylesheet" href="http://localhost:1313//css/poole.css">
@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="/favicon.ico">
 
   
-  <link href="http://localhost:1313/categories/ios/index.xml" rel="alternate" type="application/rss+xml" title="Bobby World" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Bobby World" />
 </head>
 
 <body>
@@ -46,14 +46,25 @@
 </div>
 
 
-  <div class="content container">
-    <ul class="posts">
-        
-        <li>
-          <span><a href="http://localhost:1313/ios-set-root/">iOS set root view controller wont call viewDidDissapear</a> <time class="pull-right post-list">Fri, Nov 13, 2015</time></span>
-        </li>
-        
-    </ul>
-  </div>
-</body>
+    <div class="content container">
+<div class="post">
+  <h1>Recycler Parallax</h1>
+  <span class="post-date">Sun, Nov 15, 2015</span>
+      <p>Recycler Parallax is an android library / code example that show parallax effect on a recycler view for each item when it is scrolled, this library is inspired by soundcloud android app.</p>
+
+<p>Steps that i use to achieve the parallax event:</p>
+
+<ul>
+<li>Set the image matrix to center vertically, using RecyclerView Adapter onBindViewHolder method.</li>
+<li>Reset the image matrix on RecyclerView Adapter on method onViewRecycled.</li>
+<li>Handle the scroll movement by using the RecyclerView onScrollListener.</li>
+<li>During scroll, manipulate the image matrix of the visible image on the RecyclerView.</li>
+</ul>
+
+<p>please take a look at the source on <a href="https://github.com/bopbi/RecyclerParallax/">github</a></p>
+
+</div>
+</div>
+
+  </body>
 </html>
