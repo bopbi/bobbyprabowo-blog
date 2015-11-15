@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ios on Bobby World</title>
-    <link>http://localhost:1313/categories/ios/</link>
+    <link>http://www.bobbyprabowo.com/categories/ios/</link>
     <description>Recent content in Ios on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Nov 2015 22:18:31 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.bobbyprabowo.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>iOS set root view controller wont call viewDidDissapear</title>
-      <link>http://localhost:1313/ios-set-root/</link>
+      <link>http://www.bobbyprabowo.com/ios-set-root/</link>
       <pubDate>Fri, 13 Nov 2015 22:18:31 +0700</pubDate>
       
-      <guid>http://localhost:1313/ios-set-root/</guid>
+      <guid>http://www.bobbyprabowo.com/ios-set-root/</guid>
       <description>&lt;p&gt;I noted some behaviour when performing set a root view controller on iOS.&lt;/p&gt;
 
 &lt;p&gt;Strangely it wont call the viewDidDissapear method on the viewController that are set the root view controller.&lt;/p&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Library on Bobby World</title>
-    <link>http://localhost:1313/categories/library/</link>
+    <link>http://www.bobbyprabowo.com/categories/library/</link>
     <description>Recent content in Library on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Nov 2015 21:54:01 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/library/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.bobbyprabowo.com/categories/library/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Recycler Parallax</title>
-      <link>http://localhost:1313/recycler-parallax/</link>
+      <link>http://www.bobbyprabowo.com/recycler-parallax/</link>
       <pubDate>Sun, 15 Nov 2015 21:54:01 +0700</pubDate>
       
-      <guid>http://localhost:1313/recycler-parallax/</guid>
+      <guid>http://www.bobbyprabowo.com/recycler-parallax/</guid>
       <description>&lt;p&gt;Recycler Parallax is an android library / code example that show parallax effect on a recycler view for each item when it is scrolled, this library is inspired by soundcloud android app.&lt;/p&gt;
 
 &lt;p&gt;Steps that i use to achieve the parallax event:&lt;/p&gt;

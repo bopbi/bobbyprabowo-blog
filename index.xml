@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bobby World</title>
-    <link>http://localhost:1313/</link>
+    <link>http://www.bobbyprabowo.com/</link>
     <description>Recent content on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Nov 2015 21:54:01 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.bobbyprabowo.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Recycler Parallax</title>
-      <link>http://localhost:1313/recycler-parallax/</link>
+      <link>http://www.bobbyprabowo.com/recycler-parallax/</link>
       <pubDate>Sun, 15 Nov 2015 21:54:01 +0700</pubDate>
       
-      <guid>http://localhost:1313/recycler-parallax/</guid>
+      <guid>http://www.bobbyprabowo.com/recycler-parallax/</guid>
       <description>&lt;p&gt;Recycler Parallax is an android library / code example that show parallax effect on a recycler view for each item when it is scrolled, this library is inspired by soundcloud android app.&lt;/p&gt;
 
 &lt;p&gt;Steps that i use to achieve the parallax event:&lt;/p&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>iOS set root view controller wont call viewDidDissapear</title>
-      <link>http://localhost:1313/ios-set-root/</link>
+      <link>http://www.bobbyprabowo.com/ios-set-root/</link>
       <pubDate>Fri, 13 Nov 2015 22:18:31 +0700</pubDate>
       
-      <guid>http://localhost:1313/ios-set-root/</guid>
+      <guid>http://www.bobbyprabowo.com/ios-set-root/</guid>
       <description>&lt;p&gt;I noted some behaviour when performing set a root view controller on iOS.&lt;/p&gt;
 
 &lt;p&gt;Strangely it wont call the viewDidDissapear method on the viewController that are set the root view controller.&lt;/p&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>Rise of browser based app</title>
-      <link>http://localhost:1313/rise-of-browser-based-app/</link>
+      <link>http://www.bobbyprabowo.com/rise-of-browser-based-app/</link>
       <pubDate>Fri, 01 May 2015 20:30:19 +0700</pubDate>
       
-      <guid>http://localhost:1313/rise-of-browser-based-app/</guid>
+      <guid>http://www.bobbyprabowo.com/rise-of-browser-based-app/</guid>
       <description>&lt;p&gt;The release of &lt;a href=&#34;https://www.atom.io&#34;&gt;atom&lt;/a&gt; Editor and followed with the release of facebook&amp;rsquo;s &lt;a href=&#34;https://www.nuclide.io&#34;&gt;Nuclide&lt;/a&gt; and also the new &lt;a href=&#34;https://code.visualstudio.com&#34;&gt;Visual Studio Code&lt;/a&gt; made me think that Browser based app is a very powerful platform, who knows maybe next time a true native office suite app, or a multimedia app could build based on that, since Nuclide and Visual Studio Code is an &lt;a href=&#34;https://en.wikipedia.org/wiki/Integrated_development_environment&#34;&gt;IDE&lt;/a&gt; that have tons of functionality.&lt;/p&gt;
 
 &lt;p&gt;The framework that is used to build those Apps is &lt;a href=&#34;http://electron.atom.io/&#34;&gt;Electron&lt;/a&gt; and it is created by &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;, based on the &lt;a href=&#34;https://github.com/atom/electron&#34;&gt;Github page&lt;/a&gt; for Electron: The Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on io.js and Chromium.&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/hello-world/</link>
+      <link>http://www.bobbyprabowo.com/hello-world/</link>
       <pubDate>Sun, 19 Apr 2015 17:57:37 +0700</pubDate>
       
-      <guid>http://localhost:1313/hello-world/</guid>
+      <guid>http://www.bobbyprabowo.com/hello-world/</guid>
       <description>&lt;p&gt;It always begin with a Hello World&lt;/p&gt;
 </description>
     </item>
