@@ -30,6 +30,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;for list of supported GOOS and GOARCH please visit &lt;a href=&#34;http://golang.org/doc/install/source#environment&#34;&gt;the official golang environment documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*this article is referenced from &lt;a href=&#34;https://medium.com/@rakyll/go-1-5-cross-compilation-488092ba44ec&#34;&gt;@rakyll post about Go Cross Compilation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
