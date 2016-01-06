@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Bobby World</title>
+    <link>http://www.bobbyprabowo.com/categories/golang/</link>
+    <description>Recent content in Golang on Bobby World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jan 2016 22:09:11 +0700</lastBuildDate>
+    <atom:link href="http://www.bobbyprabowo.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cross compile golang</title>
+      <link>http://www.bobbyprabowo.com/cross-compile-golang/</link>
+      <pubDate>Wed, 06 Jan 2016 22:09:11 +0700</pubDate>
+      
+      <guid>http://www.bobbyprabowo.com/cross-compile-golang/</guid>
+      <description>&lt;p&gt;Since version 1.5 it has been easier to generate Go binary for another System.&lt;/p&gt;
+
+&lt;p&gt;Just use go build (dont use go install) with GOOS, GOARCH, and GOARM (for ARM based system)&lt;/p&gt;
+
+&lt;p&gt;for example generate main.go binary for freebsd/amd64:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GOOS=freebsd GOARCH=amd64 go build main.go
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and for generate android binary:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GOOS=android GOARCH=arm GOARM=7 go build .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;for list of supported GOOS and GOARCH please visit &lt;a href=&#34;http://golang.org/doc/install/source#environment&#34;&gt;the official golang environment documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
