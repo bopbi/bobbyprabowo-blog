@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Bobby World</title>
+    <link>http://www.bobbyprabowo.com/categories/docker/</link>
+    <description>Recent content in Docker on Bobby World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Jan 2016 22:15:24 +0700</lastBuildDate>
+    <atom:link href="http://www.bobbyprabowo.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker installation issue mac with zsh</title>
+      <link>http://www.bobbyprabowo.com/docker-installation-issue-mac/</link>
+      <pubDate>Thu, 07 Jan 2016 22:15:24 +0700</pubDate>
+      
+      <guid>http://www.bobbyprabowo.com/docker-installation-issue-mac/</guid>
+      <description>&lt;p&gt;After i followed &lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34;&gt;the Docker installation step&lt;/a&gt; on my mac, start the Docker Quickstart Terminal app, and try to run the hello-world app, it will show an error that say it cannot connect to the Docker daemon as shown below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;i have try to reinstall Docker using the installer on the docker website, but it always failed.&lt;/p&gt;
+
+&lt;p&gt;After i googled around this issue, it seems this issue is caused by the docker-machine environment variable is not properly set with the running vm.&lt;/p&gt;
+
+&lt;p&gt;so the solution is just put the line below to the terminal (default is the name of the running vm)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;eval $(docker-machine env default)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;now it works flawlessly&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

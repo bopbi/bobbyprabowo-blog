@@ -6,8 +6,32 @@
     <description>Recent content in Golang on Bobby World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jan 2016 22:09:11 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2016 00:03:58 +0700</lastBuildDate>
     <atom:link href="http://www.bobbyprabowo.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>docker eval issue</title>
+      <link>http://www.bobbyprabowo.com/docker-eval-issue/</link>
+      <pubDate>Fri, 08 Jan 2016 00:03:58 +0700</pubDate>
+      
+      <guid>http://www.bobbyprabowo.com/docker-eval-issue/</guid>
+      <description>&lt;p&gt;After i followed &lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34;&gt;the Docker installation step&lt;/a&gt; on my mac, start the Docker Quickstart Terminal app, and try to run the hello-world app, it will show an error that say it cannot connect to the Docker daemon as shown below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Reinstalling Docker using the installer on the docker website didn&amp;rsquo;t fix this issue&lt;/p&gt;
+
+&lt;p&gt;After i googled around this issue, it seems this issue is caused by the docker-machine environment variable is not properly set with the running vm.&lt;/p&gt;
+
+&lt;p&gt;The solution is run the eval for the environment, type line below on the terminal (default is the name of the running vm) every time after running the Docker Quickstart app&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;eval $(docker-machine env default)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;now it works flawlessly&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cross compile golang</title>

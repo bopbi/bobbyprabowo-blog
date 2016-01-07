@@ -41,6 +41,8 @@
       
         <li><a href="/cross-compile-golang/"> Cross compile golang </a></li>
       
+        <li><a href="/docker-eval-issue/"> docker eval issue </a></li>
+      
     </ul>
 
     <p>&copy; 2016. All rights reserved. </p>
@@ -52,6 +54,33 @@
 <div class="posts">
 
       
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://www.bobbyprabowo.com/docker-eval-issue/">
+        docker eval issue
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Jan 8, 2016</span>
+
+    <p>After i followed <a href="https://docs.docker.com/mac/step_one/">the Docker installation step</a> on my mac, start the Docker Quickstart Terminal app, and try to run the hello-world app, it will show an error that say it cannot connect to the Docker daemon as shown below:</p>
+
+<pre><code>Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+</code></pre>
+
+<p>Reinstalling Docker using the installer on the docker website didn&rsquo;t fix this issue</p>
+
+<p>After i googled around this issue, it seems this issue is caused by the docker-machine environment variable is not properly set with the running vm.</p>
+
+<p>The solution is run the eval for the environment, type line below on the terminal (default is the name of the running vm) every time after running the Docker Quickstart app</p>
+
+<pre><code>eval $(docker-machine env default)
+</code></pre>
+
+<p>now it works flawlessly</p>
+
+  </div>
+  
   <div class="post">
     <h1 class="post-title">
       <a href="http://www.bobbyprabowo.com/cross-compile-golang/">
