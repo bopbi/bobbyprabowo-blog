@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algorithm on Bobby World</title>
+    <title>Algorithm on bobby world</title>
     <link>http://www.bobbyprabowo.com/tags/algorithm/</link>
-    <description>Recent content in Algorithm on Bobby World</description>
+    <description>Recent content in Algorithm on bobby world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Mar 2016 22:24:51 +0700</lastBuildDate>
@@ -17,8 +17,8 @@
       <guid>http://www.bobbyprabowo.com/solve_sudoku_using_recursion_in_c/</guid>
       <description>&lt;p&gt;Based on the tutorial on &lt;a href=&#34;http://www.geeksforgeeks.org/backtracking-set-7-suduku/&#34;&gt;geeks for geeks website&lt;/a&gt; i created a C version for that Sudoku Solution&lt;/p&gt;
 
-&lt;p&gt;&lt;script src=&#34;https://gist.github.com/bopbi/c9f94b1b981b84bcb02b.js&#34;&gt;&lt;/script&gt;
-&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/bopbi/c9f94b1b981b84bcb02b.js&#34;&gt;&lt;/script&gt;
+
 </description>
     </item>
     
