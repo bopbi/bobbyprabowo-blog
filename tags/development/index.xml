@@ -6,8 +6,49 @@
     <description>Recent content in Development on bobby world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Jan 2016 00:03:58 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2016 14:45:12 +0700</lastBuildDate>
     <atom:link href="http://www.bobbyprabowo.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>angular2 seed</title>
+      <link>http://www.bobbyprabowo.com/angular2-seed/</link>
+      <pubDate>Sun, 10 Jul 2016 14:45:12 +0700</pubDate>
+      
+      <guid>http://www.bobbyprabowo.com/angular2-seed/</guid>
+      <description>&lt;p&gt;Hi, i have created a seed project for angular2 it contain a component that call a service that perform a request to a json resource file.&lt;/p&gt;
+
+&lt;p&gt;please check my &lt;a href=&#34;https://github.com/bopbi/angular2-seed&#34;&gt;angular2-seed repo on github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;please note that this is a my simplified version of the official angular2-quickstart project&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>stack that i&#39;m interested</title>
+      <link>http://www.bobbyprabowo.com/stack-that-im-interested/</link>
+      <pubDate>Sun, 10 Jul 2016 14:19:03 +0700</pubDate>
+      
+      <guid>http://www.bobbyprabowo.com/stack-that-im-interested/</guid>
+      <description>&lt;p&gt;I think in order to survive in the IT business we must always open to a new technology (programming language, stack, framework, lib, etc)&lt;/p&gt;
+
+&lt;p&gt;and what i am currently interested is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.angular.io&#34;&gt;Angular 2&lt;/a&gt; a new approach to use component based rather than MVC, and also to use TypeScript i really rocks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.golanr.org&#34;&gt;Go&lt;/a&gt; still got my attention with the performance related story, the concurrency, and story from the startup that used it.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://reactivex.io/&#34;&gt;RxJava&lt;/a&gt; a library to manage the streams of data/event asynchronously, at first i got interested about it implementation in &lt;a href=&#34;http://android.com&#34;&gt;Android&lt;/a&gt; platform with the &lt;a href=&#34;https://github.com/ReactiveX/RxAndroid&#34;&gt;RxAndroid&lt;/a&gt; lib.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.open-std.org/jtc1/sc22/wg14/&#34;&gt;C&lt;/a&gt; well i have to admit my interest with this programming language is driven by lack of Operating System knowledge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and my next target to learn is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cockroachlabs.com/&#34;&gt;CockroachDB&lt;/a&gt;, their idea of scaling a db, and make it survivable is very good, basically they provide a simple way to make a cluster db.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfortunately i haven&amp;rsquo;t yet involved in a project that use the above (list current/next target to learn), need to spare some time to learn about it then.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>docker eval issue</title>
